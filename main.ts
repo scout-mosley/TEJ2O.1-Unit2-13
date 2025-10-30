@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 MTHS All rights reserved
  *
  * Created by: Scout Mosley
- * Created on: SOct 2025
+ * Created on: Oct 2025
  * This program shows LEDS light around the edges.
 */
 
