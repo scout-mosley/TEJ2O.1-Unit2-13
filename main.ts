@@ -2,7 +2,7 @@
  *
  * Created by: Scout Mosley
  * Created on: Oct 2025
- * This program shows count down from 4 and shows Neos.
+ * This program shows count down from 4 and shows neos.
 */
 
 // variables
