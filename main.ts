@@ -12,7 +12,6 @@ let loopCounter = 4
 // setup
 basic.showIcon(IconNames.Happy)
 basic.pause(500)
-basic.clearScreen()
 neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
@@ -29,6 +28,7 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
     neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
     neopixelStrip.show()
+    basic.pause(500)
 while (loopCounter >= 0){
     neopixelStrip.setPixelColor(loopCounter, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
